@@ -8,14 +8,14 @@
   <body>
     <h1 class="name">Nick Taglianetti - Assignment 2</h1>
       <main>
-        <h3 class="formInfo">Top 10 Favorite Music Albums</h1>
+        <h3 class="formInfo">Top 5 Favorite Music Albums</h1>
         <section id="directions">
           <p>
-            List your top ten favorite albums OF ALL TIME in order:
+            List your top five favorite albums OF ALL TIME in order:
           </p>
         </section>
         <section id="content">
-          <form>
+          <form name="myForm" onsubmit="return validateForm()" method="post">
             <ol type="1">
               <li>
                 Top Favorite:<br>
@@ -42,38 +42,16 @@
                 Artist:<input type="text" name="artist5">
                 Album:<input type="text" name="album5"><br>
               </li>
-              <li>
-                Sixth Favorite:<br>
-                Artist:<input type="text" name="artist6">
-                Album:<input type="text" name="album6"><br>
-              </li>
-              <li>
-                Seventh Favorite:<br>
-                Artist:<input type="text" name="artist7">
-                Album:<input type="text" name="album7"><br>
-              </li>
-              <li>
-                Eighth Favorite:<br>
-                Artist:<input type="text" name="artist8">
-                Album:<input type="text" name="album8"><br>
-              </li>
-              <li>
-                Ninth Favorite:<br>
-                Artist:<input type="text" name="artist9">
-                Album:<input type="text" name="album9"><br>
-              </li>
-              <li>
-                Tenth Favorite:<br>
-                Artist:<input type="text" name="artist10">
-                Album:<input type="text" name="album10"><br>
-              </li>
             </ol>
             <input type="submit" value="Submit">
           </form>
         </section>
       </main>
       <footer>
-        <p>&copy; Nicholas C. Taglianetti, 2017</p>
+        <p>
+          &copy; Nicholas C. Taglianetti, 2017
+        </p>
       </footer>
+      <script src=”./js/assignment2.js”></script>
   </body>
 </html>
