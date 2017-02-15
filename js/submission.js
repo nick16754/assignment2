@@ -1,4 +1,4 @@
-function validateForm() {
+function validateContent() {
     var artist1 = document.forms["myForm"]["artist1"].value;
     var artist2 = document.forms["myForm"]["artist2"].value;
     var artist3 = document.forms["myForm"]["artist3"].value;
@@ -10,53 +10,58 @@ function validateForm() {
     var album4 = document.forms["myForm"]["album4"].value;
     var album5 = document.forms["myForm"]["album5"].value;
 
+    console.log(artist1);
+
     if (artist1 == "") {
-        alert("artist1 must be filled out");
-        return false;
+      alert("artist1 must be filled out");
+      return false;
     }
 
     if (album1 == "") {
-        alert("album1 must be filled out");
-        return false;
+      alert("album1 must be filled out");
+      return false;
     }
 
     if (artist2 == "") {
-        alert("artist2 must be filled out");
-        return false;
+      alert("artist2 must be filled out");
+      return false;
     }
 
     if (album2 == "") {
-        alert("album2 must be filled out");
-        return false;
+      alert("album2 must be filled out");
+      return false;
     }
 
     if (artist3 == "") {
-        alert("artist3 must be filled out");
-        return false;
+      alert("artist3 must be filled out");
+      return false;
     }
 
     if (album3 == "") {
-        alert("album3 must be filled out");
-        return false;
+      alert("album3 must be filled out");
+      return false;
     }
 
     if (artist4 == "") {
-        alert("album4 must be filled out");
-        return false;
+      alert("artist4 must be filled out");
+      return false;
     }
 
     if (album4 == "") {
-        alert("album4 must be filled out");
-        return false;
+      alert("album4 must be filled out");
+      return false;
     }
 
     if (artist5 == "") {
-        alert("artist5 must be filled out");
-        return false;
+      alert("artist5 must be filled out");
+      return false;
     }
 
     if (album5 == "") {
-        alert("album5 must be filled out");
-        return false;
+      alert("album5 must be filled out");
+      return false;
     }
+
+    alert("Submission successful!");
+    return true;
 }
