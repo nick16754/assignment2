@@ -10,8 +10,6 @@ function validateContent() {
     var album4 = document.forms["myForm"]["album4"].value;
     var album5 = document.forms["myForm"]["album5"].value;
 
-    console.log(artist1);
-
     if (artist1 == "") {
       alert("artist1 must be filled out");
       return false;
